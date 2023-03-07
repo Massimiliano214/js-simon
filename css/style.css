@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1170px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
