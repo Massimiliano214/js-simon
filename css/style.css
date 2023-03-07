@@ -18,5 +18,7 @@ body {
     margin-top: 10vh;
     justify-content: center;
     align-items: center;
-    font-size: 4rem;
+    font-size: 3rem;
+    padding: 10px;
+    text-align: center;
 }
