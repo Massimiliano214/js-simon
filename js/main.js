@@ -2,13 +2,16 @@ containerDom = document.querySelector(".container");
 
 containerDom.innerHTML
 
-let addNum = randomNum();
+const listaNum = [];
+
 
 for (i = 0; i < 5; i++) {
     let addNum = randomNum();
     addNum.innerHTML += randomNum();
     console.log(addNum);
-    containerDom.innerHTML +=" " + randomNum() + ";";
+    //containerDom.innerHTML +=" " + randomNum() + ";";
+    listaNum.push(addNum);
+    console.log(listaNum);
 }
 
 
