@@ -32,7 +32,7 @@ function randomNum() {
 
 setTimeout(function() {
     containerDom.innerHTML = "?";
-}, 1000);
+}, 30000);
 
 
 setTimeout(function() {
@@ -57,21 +57,21 @@ setTimeout(function() {
     for (i = 0; i < 5; i++) {
         if (listaNum[i] == listaNumPlayer[i]){
             listaVerita.push("il " + (i + 1) + "  numero inserito è uguale");
-            containerDom.innerHTML += ("il " + (i + 1) + "  numero inserito è uguale. ");
+            containerDom.innerHTML += ("il " + (i + 1) + "  numero inserito è uguale. <br/>");
             scoreCheck++;
 
             
         } else {
             listaVerita.push("il " + (i + 1) + "  numero inserito è diverso");
-            containerDom.innerHTML += ("il " + (i + 1) + "  numero inserito è diverso. ");
+            containerDom.innerHTML += ("il " + (i + 1) + "  numero inserito è diverso. <br/>");
 
         }
     }
-    containerDom.innerHTML += ("lo score complessivo totalizzato è di " + scoreCheck + " punti.");
+    containerDom.innerHTML += ("lo score complessivo totalizzato è di " + scoreCheck + " punti. <br/>");
 
     console.log(listaVerita);
     return listaVerita;
-}, 1100);
+}, 30100);
 
 
 /*
